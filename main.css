@@ -1,0 +1,292 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+}
+
+.nav-desktop{
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.checking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 5% 30px 10%;
+    background: transparent;
+    position: absolute;
+    width: 85%;
+}
+
+.menu-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-left-div{
+    background: #F3EEE8;
+    width: 50%;
+    
+}
+
+.main-leftdiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 20%;
+    margin-top: 60px;
+}
+
+
+.antic{
+    color: #A06056;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.desktop-links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.desktop-links ul li{
+    padding: 10px;
+    color: #706458;
+    font-size: 15px;
+}
+
+.home-design{
+    margin-top: 60px;
+    color: #A06056;
+}
+
+.home-design .home{
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.home-design .elegance{
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.home-design .text{
+    color: rgba(112, 100, 88, 0.9);
+    margin-top: 15px;
+}
+
+.leftdiv-logo{
+    border: 2px solid #A06056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    color: #A06056;
+    margin-top: 30px;
+
+}
+
+.header-right-div{
+    background-image: url("./header.png");
+    background-size: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+img{
+    width: fit-content;
+    height: 45vh;
+    object-fit: contain;
+}
+
+.rightdiv-logo{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.icon-container{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+span{
+    color: #A06056;
+    font-size: 10px;
+
+}
+
+.nav-mobile{
+    background: url("./header.png");
+    display: none;
+    color: #FFFFFF;
+    height: 550px;
+    width: 100%;
+}
+
+.nav-mobile-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+
+.menu-burgercontainer{
+    height: 40px;
+    width: 40px;
+}
+
+.menu-burger{
+    width: 100%;
+    height: 4px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.menu-burger::before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #FFFFFF;
+    position: absolute;
+    transform: translateY(10px);
+}
+
+.home-design-mobile{
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.home-mobile{
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.elegance-mobile{
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.text-mobile{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.mobile-logo{
+    position: relative;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-top: 30px; 
+    left: 48%;  
+}
+
+.second-section-div{
+    background: #F3EEE8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.second-sectionleft-div{
+    width: 40%;
+}
+
+.second-sectionleft-div p{
+    color: #706458;
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+
+
+.second-sectionright-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 15px;
+}
+
+.content{
+    width: 48%;
+    height: 150px;
+    margin: 10px 0;
+
+}
+
+.content h3{
+    color: #A06056;
+}
+
+.content p{
+    color: rgba(112, 100, 88, 0.9);
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 10%;
+}
+
+.footerleft-div{
+    width: 40%;
+    height: 50%;
+}
+
+.footerleft-div h3{
+    color: #121212;
+}
+
+.footerleft-div p{
+    color: rgba(112, 100, 88, 0.9);
+    font-size: 10px;
+}
+
+.footerright-div{
+    width: 40%;
+}
+
+.mail-btn{
+    background: rgba(243, 238, 232, 0.3);
+    border: 2px solid rgba(243, 238, 232, 0.3);
+    padding: 10px 15px;
+    color: rgba(112, 100, 88, 0.9);
+}
+
+.btn{
+    background: #534B42;
+    padding: 10px 15px;
+    color:#FFFFFF;
+}
