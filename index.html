@@ -95,12 +95,23 @@
                 <div class="antic-mobile">
                     <h2>antic</h2>
                 </div>
-                <div class="menu-burgercontainer">
+                <div class="menu-burgercontainer" onclick="addandremove()">
                     <div class="menu-burger"></div>
                 </div>
             </div>
 
-            <div class="home-design-mobile">
+            <div class="mobilelink-container">
+                <div class="link-content">
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#inspiration">Inspiration</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-design-mobile" id="products">
 
                 <p class="home-mobile">HOME DESIGN</p>
 
@@ -123,7 +134,7 @@
     </header>
 
 
-    <div class="second-section-div">
+    <div class="second-section-div" id="rooms">
         <div class="second-sectionleft-div">
 
             <div class="">
@@ -137,7 +148,7 @@
 
         </div>
 
-        <div class="second-sectionright-div">
+        <div class="second-sectionright-div" id="services">
 
             <div class="content">
                 <h3>Our Advices</h3>
@@ -181,7 +192,7 @@
     </div>
 
 
-    <div class="footer">
+    <div class="footer" id="inspiration">
         <div class="footerleft-div">
             <h3>Be aware of the latest trends</h3>
             <p>Stay informed of new trends, but also of our various offers.</p>
@@ -194,9 +205,7 @@
         </div>
     </div>
 
-
-
-
+    <script src="./main.js"></script>
 </body>
 
 </html>
